@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Te Hat</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        header {
+            background-color: blue;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        h1 {
+            margin: 0;
+        }
+        p {
+            margin-top: 5px;
+        }
+        .product-list {
+            list-style-type: none;
+            padding: 0;
+            display: flex; /* Sử dụng flexbox */
+            flex-wrap: wrap; /* Cho phép các sản phẩm xuống dòng khi không đủ không gian */
+            justify-content: space-between; /* Canh chỉnh các sản phẩm theo chiều ngang */
+        }
+        .product-item {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+            padding: 10px;
+            width: 30%; /* Đặt chiều rộng của sản phẩm */
+            box-sizing: border-box; /* Tính cả padding và border vào kích thước */
+        }
+        .product-item a {
+            text-decoration: none;
+            color: #333;
+        }
+        .product-item:hover {
+            background-color: #f9f9f9;
+        }
+        .product-item img {
+            max-width: 100%;
+            height: auto;
+            display: block; /* Để hình ảnh hiển thị dưới dạng khối */
+            margin: 0 auto; /* Canh chỉnh hình ảnh vào giữa */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to Shop Te Hat</h1>
+            <p>Discover quality products</p>
+        </header>
+        <section>
+            <h2>About Us</h2>
+            <p>Welcome to Shop Te Hat! We are dedicated to providing high-quality hats for every occasion. Whether you need a stylish cap for a casual outing or an elegant hat for a special event, we've got you covered.</p>
+        </section>
+        <section>
+            <h2>Our Products</h2>
+            <ul class="product-list">
+                <li class="product-item">
+                    <a href="https://amzn.to/49EQ9qZ">Product 1 - <u><b>GermGuardian Air Purifier for Homes</u></b></a>
+                    <img src="https://m.media-amazon.com/images/I/31QqZp1l2YL._MCnd_AC_.jpg" height="200" width="200">
+                </li>
+                <li class="product-item">
+                    <a href="https://amzn.to/3Tn3IFN">Product 2 - <u><b>Newmowa 60 LED High Power Rechargeable Clip Fill Video Conference Light</u></b></a>
+                    <img src="https://m.media-amazon.com/images/I/713x-AxAYTL._AC_SX679_.jpg" height="200" width="200">
+                </li>
+                <!-- Add more product items as needed 
+                <li class="product-item">
+                    <a href="#">Product 3 - Description of Product 3</a>
+                    <img src="path_to_image" height="200" width="200">
+                </li>
+                <li class="product-item">
+                    <a href="#">Product 4 - Description of Product 4</a>
+                    <img src="path_to_image" height="200" width="200">
+                </li> -->
+                
+            </ul>
+        </section>
+        <section>
+            <h2>Why Choose Us?</h2>
+            <p>At Shop Te Hat, we prioritize customer satisfaction. Here are a few reasons why you should choose us:</p>
+            <ul>
+                <li>Wide selection of high-quality hats</li>
+                <li>Competitive prices</li>
+                <li>Fast and reliable shipping</li>
+                <li>Responsive customer support</li>
+            </ul>
+        </section>
+        <footer>
+            <p>Contact us: info@shoptehat.com</p>
+        </footer>
+    </div>
+</body>
+</html>
